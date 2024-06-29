@@ -16,18 +16,18 @@
 <h3>Пример тела запроса для добавления/изменения сенсора</h3>
 ```json
 {
-    "sensor_name": "new_sensor1",
-    "sensors_measurements": [
-        {
-            "type_id": 1,
-            "type_formula": "ax^2"
-        },
-        {
-            "type_id": 2
-        },
-        {
-            "type_id": 3
-        }
-    ]
+  "sensor_name": "new_sensor1",
+  "sensors_measurements": [
+    {
+      "type_id": 1,
+      "type_formula": "ax^2"
+    },
+    {
+      "type_id": 2
+    },
+    {
+      "type_id": 3
+    }
+  ]
 }
 ```

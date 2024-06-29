@@ -55,6 +55,17 @@ INSERT INTO public.measures_types VALUES (1, 'Humidity', '%');
 INSERT INTO public.measures_types VALUES (2, 'temp', 'degrees');
 INSERT INTO public.measures_types VALUES (3, 'Pressure', 'mercury`s mm');
 
+INSERT INTO public.sensors VALUES (1, 'DH11');
+INSERT INTO public.sensors VALUES (2, 'LM35');
+INSERT INTO public.sensors VALUES (3, 'BME280');
+INSERT INTO public.sensors VALUES (4, 'GY-213V-HTU21D');
+
+INSERT INTO public.sensors_measures VALUES (1, 3, '(value/1023)*5.0*1000/10');
+INSERT INTO public.sensors_measures VALUES (1, 2, 'value');
+INSERT INTO public.sensors_measures VALUES (2, 1, 'value');
+INSERT INTO public.sensors_measures VALUES (4, 2, 'value*10');
+
+
 -- Completed on 2024-06-14 15:13:35
 
 --
